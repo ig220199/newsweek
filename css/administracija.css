@@ -1,0 +1,143 @@
+body{
+	font-family: Arial,Sans-serif !important;
+	background: #f4f5f6;
+	margin: 0;
+}
+
+#container{
+	max-width: 1250px;
+	min-width: 425px;
+	margin: 0 auto;
+}
+
+main{
+	background: #fff;
+	padding: 50px 35px;
+}
+
+main h1{
+	margin: 0 0 25px 0;
+	font-size: 30px;
+}
+
+main table{
+	width: 100%;
+	min-width: 700px;
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+
+main table tr th{
+	border: 1px solid #d1d1d1;
+	padding: 10px 20px;
+}
+
+main table tr td{
+	border: 1px solid #d1d1d1;
+	vertical-align: middle;
+	padding: 10px;
+}
+
+main table tr td:first-of-type img{
+	width: 100%;
+}
+
+main table tr td:first-of-type img:hover{
+	opacity: 0.7;
+}
+
+main table tr td h3{
+	margin: 0;
+	font-size: 18px;
+}
+
+main table tr td h3 a{
+	color: #000;
+	text-decoration: none;
+}
+
+main table tr td h3 a:hover{
+	text-decoration: underline;
+}
+
+main table tr td ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+main table tr td ul li{
+	cursor: pointer;
+	margin: 10px 0;
+	font-size: 14px;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none; 
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none; 
+            user-select: none;                      
+}
+
+main table tr td ul li:first-of-type{
+	margin-top: 0;
+}
+
+main table tr td ul li a{
+	color: #000;
+	text-decoration: none;
+}
+
+main table tr td ul li a:hover{
+	color: red;
+}
+
+main table tr td ul li img{
+	margin: 0 5px -3px 0;
+	height: 18px;
+}
+
+main table tr td ul li:hover{
+	color: red;
+}
+
+tr.archived{
+	background: #fdffe5;
+}
+
+@media only screen and (max-width: 1100px) {
+	main table tr td h3{
+		font-size: 16px;
+	}
+
+	main table tr td{
+		font-size: 14px;
+	}
+
+	main table tr th{
+		font-size: 15px;
+	}
+}
+
+@media only screen and (max-width: 920px) {
+	main table tr td h3{
+		font-size: 14px;
+	}
+
+	main table tr td, main table tr td ul li{
+		font-size: 13px;
+	}
+
+	main table tr td ul li img{
+		display: none;
+	}
+
+	main table tr th{
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	#add_container{
+		width: calc(90% - 40px);
+	}
+}

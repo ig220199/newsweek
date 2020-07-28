@@ -1,0 +1,8 @@
+U sličaju nemogućnosti konekcije na bazu:
+	treba promjeniti port u fajli "core/connection.php" u port koji je zadan za MySQL (default: 3308).
+	treba promjeniti korisničko ime i lozinku ukoliko se ne poklapa sa onima u fajli "core/connection.php" i lokalnim.
+	treba importati bazu podataka "newsweek.sql".
+
+JavaScript mora biti uključen u browseru!
+
+Ako pretraživać ne radi potrebno je u bazi postaviti Collation na 'case insensitive'

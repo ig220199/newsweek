@@ -1,0 +1,1 @@
+$("#hideAll").delay(0).fadeOut("fast");

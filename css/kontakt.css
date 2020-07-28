@@ -1,0 +1,134 @@
+body{
+	font-family: Arial,Sans-serif !important;
+	background: #f4f5f6;
+	margin: 0;
+}
+
+#container{
+	max-width: 1250px;
+	min-width: 425px;
+	margin: 0 auto;
+}
+
+main{	
+	background: #fff;
+}
+
+#contact_container{
+	margin: 0 auto;
+	width: calc(50% - 40px);
+	padding: 60px 20px 100px 20px;
+}
+
+#contact_container h2{
+	margin: 0;
+	padding: 0 0 10px 0;
+	font-size: 30px;
+	border-bottom: 1px solid #d1d1d1;
+}
+
+#contact_container ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}	
+
+#contact_container ul li{
+	position: relative;
+	margin: 35px 0;
+}
+
+#contact_container ul li p{
+	margin: 0 0 5px 0;
+	font-size: 15px;
+}
+
+#contact_container ul li:last-of-type{
+	margin: 65px 0 0 0;
+}
+
+#contact_container input{
+	width: calc(100% - 20px);
+	padding: 12px 8px;
+	font-size: 15px;
+	border:1px solid #adadad;
+}
+
+#contact_container input[type="submit"]{
+	background: #fff;
+	border:2px solid #d20000;
+	color: #d20000;
+	font-size: 15px;
+	font-weight: bold;
+	outline: none;
+	cursor: pointer;
+	width: 180px;
+	padding: 8px 15px;
+}
+
+#contact_container input[type="submit"]:hover{
+	color: #fff;
+	background: #d20000;
+}
+
+#contact_container textarea{
+	font-family: Arial,Sans-serif !important;
+	resize: none;
+	width: calc(100% - 22px);
+	font-size: 15px;
+	padding: 10px;
+	height: 250px;
+	border: 1px solid #adadad;
+}
+
+.error{
+	color: red;
+	font-size: 13px !important;
+	margin: 0 !important;
+}
+
+#success{
+	display: none;	
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    padding: 5px 15px;
+    margin: 25px 0 10px 0;
+    border: 1px solid #c9eabc;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+#success span{
+	color: #1c481d;
+}
+
+#success a{
+	text-decoration: none;
+	color: blue;
+}
+
+#success a:hover{
+	text-decoration: underline;
+}
+
+input[name="email"]{
+	display: none;
+}
+
+@media only screen and (max-width: 1100px) {
+	#contact_container{
+		width: calc(60% - 40px);
+	}
+}
+
+@media only screen and (max-width: 850px) {
+	#contact_container{
+		width: calc(70% - 40px);
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	#contact_container{
+		width: calc(80% - 40px);
+	}
+}
